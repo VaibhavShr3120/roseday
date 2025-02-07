@@ -1,0 +1,12 @@
+body{
+    background: url('../utilities/rose3.gif') !important;
+}
+
+span{
+    backdrop-filter: blur(2px); /* Blurs everything behind it */
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: cursive;
+    font-size: 0.85rem;
+    border-radius: 25px;
+    border: 2px solid red;
+}

@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(60deg, #f03a22 0%, #f3578b 39%, #f192d9 90%);
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents image repetition */
+  height: 100vh;
+}
+
+.btn{
+    width: 10rem;
+    height: 2rem;
+    background: linear-gradient(60deg, #f03a22 0%, #f3578b 39%, #f192d9 90%);
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-family: cursive;
+    font-weight: 600;
+    transition: 0.2s; 
+    text-align: center;
+}
+
+.btn:active{
+    transform: scale(0.9);
+}
+
+.btn:hover{
+    width: 11rem;
+    height: 2.2rem;
+    font-size: 1.2rem;
+}
+
+#cherry{
+    height: 25%;
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid rgb(245, 2, 83);
+}
+
+p{
+    color:white;
+}
+
+.msg{
+    width: 65%;
+}
